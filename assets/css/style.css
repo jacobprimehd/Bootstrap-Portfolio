@@ -1,8 +1,10 @@
 body{
     background-image: url("../images/i3.jpg");
-    background-size: cover;
+    background-position: center center;
     background-repeat: no-repeat;
-    width: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #666666;
 }
 a{
     color: white;
@@ -16,5 +18,14 @@ a:hover{
 }
 
 #footer-fix{
-    height: 4vw;
+    height: 5%;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+    #footer-fix{
+        height: 7.5%;
+    }
 }
