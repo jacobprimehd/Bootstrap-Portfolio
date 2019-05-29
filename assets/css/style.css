@@ -18,14 +18,27 @@ a:hover{
 }
 
 #footer-fix{
-    height: 5%;
+    height: 7.5%;
     position: fixed;
     bottom: 0;
     width: 100%;
 }
 
-@media only screen and (max-width: 1000px) {
-    #footer-fix{
-        height: 7.5%;
-    }
+#content{
+    background-color: white;
+    height: 100%;
+}
+
+#about-me-image{
+    height: 25%;
+    width: 20%;
+}
+
+#bigger-text{
+    font-size: 135%;
+}
+
+hr{
+    border: 2px solid black;
+    opacity: 50%;
 }
